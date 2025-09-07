@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    // define the paths for files once here and then just import them using @ no need to use ./../../ etc
+    "paths": {
+      "@/*": ["./*"],
+      "@actions/*": ["./actions/*"]
+    }
+  }
+}
